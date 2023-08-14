@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+figure {
+	padding: 10px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	border-radius: 3%;
+
+	box-shadow: rgba(255, 255, 255, 0.516) 0px 7px 29px 0px;
+	cursor: pointer;
+}
+
+figure:hover {
+	transform: scale(1.1, 1.1);
+}
+
+img {
+	width: 10rem;
+}
+
+figcaption {
+	background-color: rgb(88, 161, 234);
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 3%;
+}
